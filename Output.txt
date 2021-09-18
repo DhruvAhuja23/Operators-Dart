@@ -1,0 +1,187 @@
+Operators =>
+
+1: Unary Postfix '++' Post Increment
+
+num1 before increment is : 10
+num2 before increment is : 20
+num1 after increment is : 11
+num2 after increment is : 21
+
+1: Unary Postfix '--' Post Decrement
+
+num1 before decrement is : 11
+num2 before decrement is : 21
+num1 after decrement is : 10
+num2 after decrement is : 20
+2: Unary Prefix '-' Negation
+
+num1 after nagation is : -10
+Expression after nagation is : -30
+
+2: Unary Prefix '!' Not
+
+True after not is : false
+Expression after not is : true
+
+2: Unary Prefix '~' Bitwise Complement
+
+Expression after bitwise complement is : 4294967265
+Expression after not is : 4294967265
+
+2: Unary Prefix '++' Pre Increment
+
+num1 before increment is : 10
+num2 before increment is : 20
+num1 after increment is : 11
+num2 after increment is : 21
+
+2: Unary Prefix '--' Pre Increment
+
+num1 before decrement is : 11
+num2 before decrement is : 21
+num1 after decrement is : 10
+num2 after decrement is : 20
+
+3: Arithmetic Operators '+'
+
+Expression after addition operation : 30
+Expression after addition operation : 195
+
+3: Arithmetic Operators '-'
+
+Expression after subtraction operation : -10
+Expression after subtraction operation : -1
+
+3: Arithmetic Operators '*'
+
+Expression after multiplication operation : 200
+Expression after multiplication operation : 9506
+
+3: Arithmetic Operators '/'
+
+Expression after divide operation : 0.5
+Expression after divide operation : 0.9897959183673469
+
+3: Arithmetic Operators '~/'
+
+Expression after integer division operation : 0
+Expression after integer division operation : 0
+
+3: Arithmetic Operators '%'
+
+Expression after modulo operation : 10
+Expression after modulo operation : 97
+
+4: Bitwise operator AND '&'
+
+Expression after bitwise and : 0
+Expression after bitwise and : 96
+
+4: Bitwise operator OR '|'
+
+Expression after bitwise or : 30
+Expression after bitwise or : 99
+
+4: Bitwise operator XOR '^'
+
+Expression after bitwise xor : 30
+Expression after bitwise xor : 3
+
+5: Shift operator Left Shift '<<'
+
+Expression after bitwise left shift : 4
+Expression after bitwise left shift : 2048
+
+5: Shift operator Right Shift '>>'
+
+Expression after bitwise right shift : 64
+Expression after bitwise right shift : 256
+
+5: Relational Operator Greater than '>'
+Expression after evaluation : true
+Expression after evaluation : false
+
+5: Relational Operator Less than '<'
+Expression after evaluation : false
+Expression after evaluation : true
+
+5: Relational Operator Greater than equal to '>='
+Expression after evaluation : true
+Expression after evaluation : true
+
+5: Relational Operator Less than equal to '<='
+Expression after evaluation : true
+Expression after evaluation : false
+
+5: Equality Operator '=='
+Expression after evaluation : true
+Expression after evaluation : false
+
+5: Equality Operator '!='
+Expression after evaluation : false
+Expression after evaluation : true
+
+6: Type test operator 'is'
+
+To check the type of variable int 20 : true
+To check the type of variable String 20 : true
+
+6: Type test operator is Not 'is!'
+
+To check the type of variable int 20 : false
+To check the type of variable String 20 : false
+
+7: Logoical And '&&'
+
+Expression equivalent of 20>10 && 10<11 : true
+Expression equivalent of 20>10 && 10>11 : false
+
+7: Logoical OR '||'
+
+Expression equivalent of 20>10 || 10<11 : true
+Expression equivalent of 20>10 || 10>11 : true
+
+8: Conditional Operator 'expr1 ? expr2 : expr3'
+
+The greater number between 20 and 10 is : num1 20
+The number 10 and 11 : They are not equal
+
+9: Assignment Operator '='
+
+The value assigned to a is : 7
+The value assigned to b is : 4
+
+9: Assignment Operator with addition '+='
+
+The value assigned to a is a+=a : 14
+The value assigned to b is b+=b : 8
+
+9: Assignment Operator with subtraction '-='
+
+The value assigned to a is a-=a : 0
+The value assigned to b is b-=b : 0
+
+9: Assignment Operator with Multiplication '*='
+
+The value assigned to a is a*=a : 49
+The value assigned to b is b*=b : 16
+
+9: Assignment Operator with Division '/='
+
+The value assigned to c 49 after c/=a : 1
+The value assigned to d 16 after d/=b : 1
+
+9: Assignment Operator with Bitwise AND '&='
+
+The value assigned to a is a&=a : 49
+The value assigned to b is b&=b : 16
+
+9: Assignment Operator with Bitwise OR '|='
+
+The value assigned to a is a|=a : 49
+The value assigned to b is b|=b : 16
+
+9: Assignment Operator with Bitwise XOR '^='
+
+The value assigned to a is a^=a : 0
+The value assigned to b is b^=b : 0
